@@ -59,7 +59,7 @@ useEffect(() => {
 
       {/* Navbar */}
       <nav style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "1rem 2rem", background: "white", boxShadow: "0 2px 8px rgba(0,0,0,0.08)" }}>
-        <h2 style={{ margin: 0, color: "#4f46e5" }}>📝 CedardNotes</h2>
+        <h2 style={{ margin: 0, color: "#4f46e5" }}>📝 WeaveNote</h2>
         <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
           <span style={{ color: "#6b7280", fontSize: "0.9rem" }}>{user.email}</span>
           <button onClick={handleSignOut} style={{ padding: "0.5rem 1rem", background: "#ef4444", color: "white", border: "none", borderRadius: "6px", cursor: "pointer" }}>
